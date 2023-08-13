@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  margin-top: -3px;
+}
+
+.logo h1 {
+  padding: 10px 5px;
+  font-family: "Splash", cursive;
+  color: white;
+}
+
+.nav-item {
+  width: 50%;
+  float: right;
+  height: 65px;
+  margin-top: -5px;
+}
+
+.nav-item ul {
+  padding: 20px 20px;
+  float: right;
+}
+
+.nav-item ul li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.nav-item ul li a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.nav-item ul li a:hover {
+  color: rgb(248, 60, 60);
+  text-decoration: overline;
+}
+
+.header {
+  width: 100%;
+  height: 800px;
+  margin-top: 1px;
+  display: inline-block;
+  border: 1px solid #d10024;
+  background-image: url("shoping mall blur.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.marquee-strip {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d10024;
+  background-color: #d10024;
+}
+
+main {
+  width: 100%;
+  height: 2052px;
+}
+
+.intro {
+  width: 50%;
+  height: 200px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.intro h1 {
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 0px 2px red;
+  font-size: 46px;
+}
+
+.New-products {
+  width: 100%;
+  height: 1200px;
+  margin-top: 40px;
+}
+
+.New-products h2 {
+  display: block;
+  height: 53px;
+  margin-left: 14px;
+}
+
+.product1 {
+  margin-left: 40px;
+  width: 20%;
+  height: 520px;
+  float: left;
+  margin-right: 24px;
+  margin-top: 20px;
+  border: 1px solid gray;
+}
+
+.product1:hover {
+  border: 2px solid #d10024;
+}
+
+.details {
+  width: 100%;
+  height: 240px;
+}
+
+.fa-star {
+  color: #d10024;
+}
+
+.order:hover {
+  background-color: white;
+  color: #d10024;
+}
+
+.product-data-table {
+  width: 100%;
+  height: 310px;
+  margin-top: 200px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #d10024;
+  width: 100%;
+}
+
+table tr {
+  width: 30%;
+  border: 1px solid red;
+}
+
+table tr td {
+  border: 1px solid red;
+  height: 60px;
+  text-align: center;
+  color: #d10024;
+  font-family: sans-serif;
+}
+
+table tr th {
+  border: 1px solid white;
+  height: 40px;
+  text-align: center;
+  background-color: #d10024;
+  color: white;
+}
+
+.fa-star {
+  color: #d10024;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-image: url(footer.png);
+  background-size: 64% 334px;
+  background-repeat: no-repeat;
+}
+
+.overly {
+  width: 100%;
+  height: 300px;
+  background: rgba(250, 45, 45, 0.9);
+}
+
+.overly p {
+  margin-top: 100px;
+  display: inline-block;
+  float: right;
+  padding: 10px 560px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  word-spacing: 20px;
+  margin-left: 25px;
+  color: white;
+  transition: all 1s ease;
+}
+
+.fa-facebook:hover {
+  cursor: pointer;
+  font-size: 40px;
+  color: blue;
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+
+.fa-twitter:hover {
+  cursor: pointer;
+  font-size: 40px;
+  color: rgb(3, 194, 194);
+}
+
+.fa-instagram:hover {
+  cursor: pointer;
+  font-size: 40px;
+  color: rgb(240, 41, 75);
+  background-color: white;
+  border-radius: 12px;
+}
+
+.fa-google-plus:hover {
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.fa-youtube:hover {
+  cursor: pointer;
+  font-size: 40px;
+  color: red;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.fa-linkedin-in:hover {
+  cursor: pointer;
+  font-size: 40px;
+  background-color: #0077b5;
+  width: 40px;
+  border-radius: 12px;
+}
